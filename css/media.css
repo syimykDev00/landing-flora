@@ -370,10 +370,10 @@
     .trending-block {
         width: 322px;
         height: 540px;
-        padding: 20px 0 20px 14px;
+        padding: 20px 14px 20px 14px;
     }
     .trending-image {
-        width: 310px;
+        width: 100%;
     }
 }
 
