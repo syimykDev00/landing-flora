@@ -1,0 +1,463 @@
+@media (max-width: 1440px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .hero {
+        left: 90px;
+    }
+    .footer-line {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .hero {
+        left: 60px;
+    }
+    .dream-general img {
+        width: 935px;
+    }
+    .dream-general-two img {
+        width: 935px;
+    }
+    .trending-general {
+        justify-content: space-evenly;
+    }
+    .hero h1 {
+        line-height: 74px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .dream-general img {
+        width: 780px;
+    }
+    .dream-general-two img {
+        width: 780px;
+    }
+    .customers-block {
+        padding: 30px 30px 60px 180px;
+    }
+    .customers-block h6 {
+        width: 530px;
+    }
+    .hero-general {
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-image {
+        width: 1024px;
+    }
+    .hero {
+        top: 80px;
+    }
+    .works-general {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .works-block {
+        margin-bottom: 30px;
+    }
+    .hero {
+        left: 48px;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero h1 {
+        line-height: 70px;
+    }
+    .hero-image {
+        width: 992px;
+    }
+    .hero {
+        top: 70px;
+    }
+    .customers-block h6 {
+        width: 485px;
+    }
+    .hero-block {
+        width: 850px;
+    }
+    .hero {
+        left: 48px;
+    }
+    .dream-general img {
+        width: 745px;
+    }
+    .dream-general-two img {
+        width: 745px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-image {
+        width: 768px;
+        height: 691px;
+    }
+    .hero-block {
+        width: 620px;
+        height: 150px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .icon-general {
+        padding-bottom: 20px;
+    }
+    .dream-general img {
+        width: 545px;
+    }
+    .dream-img-one {
+        height: 333px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    .dream-general-two img {
+        width: 545px;
+    }
+    .dream-img-two {
+        height: 333px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    .customers-block h6 {
+        width: 280px;
+    }
+    .customers-block {
+        padding: 30px 10px 60px 180px;
+    }
+    .customers-text {
+        padding-right: 15px;
+    }
+    .footer-general {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .footer-location {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .header-navbar {
+        display: none;
+    }
+    .header button {
+        display: none;
+    }
+    .burger-menu {
+        display: block;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-image {
+        width: 576px;
+        height: 791px;
+        object-fit: cover;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        left: 10px;
+    }
+    .hero h1 {
+        width: 90%;
+        margin: 0 auto;
+        line-height: 65px;
+        font-size: 53px;
+    }
+    .hero p {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .hero-block {
+        align-items: center;
+        width: 480px;
+        height: 230px;
+    }
+    .icon-text {
+        padding: 0 30px 0 20px;
+    }
+    .hero-line {
+        display: none;
+    }
+    .hero-text {
+        padding-right: 0;
+    }
+    .hero-text {
+        padding: 0 30px;
+    }
+    .dream p {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .dream-general img {
+        width: 345px;
+    }
+    .dream-block {
+        width: 253px;
+    }
+    .dream-general-two img {
+        width: 345px;
+    }
+    .trending p {
+        width: 90%;
+    }
+    .customers p {
+        width: 90%;
+    }
+    .footer-text {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-text h4 {
+        padding-bottom: 20px;
+    }
+    .footer-nav a {
+        padding-left: 0;
+    }
+    .footer-nav a {
+        padding: 0 15px;
+    }
+    .customers-general {
+        flex-direction: column;
+        align-items: center;
+    }
+    .customers-block {
+        right: 0;
+        padding: 30px 20px 60px 60px;
+    }
+    .customer-girl {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+    .customer-girl {
+        padding-bottom: 30px;
+    }
+    .customers h1 {
+        font-size: 38px;
+    }
+    .dream h1 {
+        width: 100%;
+        line-height: 56px;
+    }
+}
+
+@media (max-width: 450px) {
+    .hero-image {
+        width: 450px;
+        height: 871px;
+        object-fit: cover;
+    }
+    .hero-block {
+        align-items: center;
+        width: 370px;
+        height: 230px;
+    }
+    .hero h1 {
+        width: 90%;
+        margin: 0 auto;
+        line-height: 60px;
+        font-size: 53px;
+    }
+    .hero {
+        left: 0;
+    }
+    .works p {
+        width: 90%
+    }
+    .dream h1 {
+        width: 100%;
+        line-height: 52px;
+    }
+    .dream-general {
+        flex-direction: column;
+        padding: 0 0 50px 0;
+    }
+    .dream-block {
+        left: 0;
+        margin-bottom: 30px;
+    }
+    .dream-general-two {
+        flex-direction: column-reverse;
+        padding: 0 0 50px 0;
+    }
+    .dream-block-two {
+        left: 0;
+        margin-bottom: 30px;
+    }
+    #trending {
+        padding: 60px 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero h1 {
+        width: 90%;
+        margin: 0 auto;
+        line-height: 56px;
+        font-size: 50px;
+    }
+    .hero-block {
+        align-items: center;
+        width: 330px;
+        height: 230px;
+    }
+    .dream h1 {
+        width: 90%;
+        line-height: 49px;
+    }
+    .trending h1 {
+        width: 100%;
+        font-size: 37px;
+    }
+    .footer-logo {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .footer-navbar {
+        align-items: center;
+        text-align: center;
+    }
+    .customers-block {
+        right: 0;
+        padding: 30px 20px 60px 30px;
+    }
+    .hero-image {
+        width: 400px;
+    }
+}
+
+@media (max-width: 375px) {
+    .hero h1 {
+        width: 90%;
+        margin: 0 auto;
+        line-height: 53px;
+        font-size: 47px;
+    }
+    .hero-block {
+        align-items: center;
+        width: 300px;
+        height: 230px;
+    }
+    .dream h1 {
+        width: 90%;
+        line-height: 47px;
+    }
+    .trending h1 {
+        width: 100%;
+        font-size: 36px;
+    }
+    .customers-block {
+        right: 0;
+        padding: 30px 10px 60px 20px;
+    }
+    .hero-image {
+        width: 374px;
+    }
+    .footer-location h5 {
+        width: 85%;
+        margin: 0 auto;
+        line-height: 23px;
+    }
+    .trending-block {
+        width: 336px;
+        height: 540px;
+        padding: 20px 0 20px 14px;
+    }
+    .trending-image {
+        width: 310px;
+    }
+}
+
+@media (max-width: 320px) {
+    .hero-image {
+        width: 320px;
+        height: 931px;
+    }
+    .hero h1 {
+        width: 90%;
+        margin: 0 auto;
+        line-height: 50px;
+        font-size: 42px;
+    }
+    .hero-block {
+        align-items: center;
+        width: 260px;
+        height: 300px;
+    }
+    .icon-general {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .icon-general button {
+        margin-top: 10px;
+    }
+    .works h1 {
+        font-size: 38px;
+    }
+    .works-block {
+        width: 306px;
+        height: 192px;
+        padding: 30px 0 0 30px;
+    }
+    .works-block h6 {
+        width: 258px;
+    }
+    .dream h1 {
+        font-size: 38px;
+    }
+    .dream-general img {
+        width: 285px;
+    }
+    .dream-general-two img {
+        width: 285px;
+    }
+    .footer-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-nav a {
+        padding: 0 0 10px 0;
+    }
+    .customer-girl {
+        width: 285px;
+    }
+    .customers-block {
+        right: 0;
+        padding: 30px 20px 50px 20px;
+    }
+    .customers-title {
+        flex-direction: column;
+        align-items: center;
+    }
+    .customers-text {
+        padding-right: 0;
+    }
+    .customers-text {
+        padding: 0 0 20px 0;
+    }
+    .customers-block h6 {
+        width: 250px;
+        padding: 20px 0 30px 0;
+    }
+    .trending-block {
+        width: 286px;
+        height: 500px;
+        padding: 20px 0 20px 11px;
+    }
+    .trending-image {
+        width: 266px;
+    }
+}
